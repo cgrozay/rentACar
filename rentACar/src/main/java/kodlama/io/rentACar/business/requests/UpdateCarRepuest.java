@@ -7,9 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class CreateCarRequest {
-
-
+public class UpdateCarRepuest {
 
 	private String plate;
 
@@ -18,5 +16,4 @@ public class CreateCarRequest {
 	private int modelYear;
 
 	private int state;
-	private int modelId;
 }
